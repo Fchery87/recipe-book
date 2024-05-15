@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(logger);
 
 app.use('/', (req, res) => {
-    res.send('Welcome to my Recipe Book');
+  res.send('Welcome to my Recipe Book');
 });
 
 app.use('/users', userRoutes);
@@ -23,5 +23,5 @@ app.use('/categories', categoryRoutes);
 app.use(errorHandler);
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+  console.log(`Server is running on port ${port}`);
 });
