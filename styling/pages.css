@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
     color: #333;
@@ -52,7 +52,7 @@ body {
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
-    color: #007bff; /* Change link color to a blue */
+    color: #004794; /* Change link color to a blue */
   }
   
   a:hover {
